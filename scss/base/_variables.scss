@@ -1,0 +1,43 @@
+
+$fuente: 
+'Preahvihear', sans-serif;
+
+
+//!LISTAS
+$colores:
+white,
+red,
+#021023,
+#E5446D,
+wheat,
+#d9ee49,
+black,
+#000021,
+gray,
+gainsboro,
+darkgrey,
+pink,
+orange;
+
+//!MAPAS
+
+
+
+
+
+//!EXTENDS
+
+%flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+//!MIXINS
+@mixin dimension ($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}
+
+//!CONDICIONALES

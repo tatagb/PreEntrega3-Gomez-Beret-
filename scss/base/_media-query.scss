@@ -1,0 +1,106 @@
+/*MEDIA QUERY---*/
+
+@media screen and (max-width:1400px) {
+    .consejos {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tarjetas-de-consejos {
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width:1255px) {
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        gap: 0px 0px;
+        grid-template-areas:
+            "header header"
+            "main main"
+            "footer footer";
+    }
+
+    .consultorios img {
+        display: flex;
+        flex-direction: column;
+    }
+
+    @media screen and (max-width:1040px) {
+        .mapa iframe {
+            border-radius: 100%;
+            width: 80%;
+        }
+    }
+
+    @media screen and (max-width:768px) {
+
+        .tarjetas-de-consejos {
+            flex-direction: column;
+        }
+
+        .consejos {
+            flex-direction: column;
+
+            h2 {
+                font-size: large;
+            }
+
+            p {
+                font-size: large;
+            }
+        }
+    }
+
+    @media screen and (max-width:576px) {
+        .consultorios {
+            div {
+                img {
+                    width: 400px !important;
+                }
+
+                h2 {
+                    font-size: large;
+                }
+
+                h3 {
+                    font-size: medium;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width:470px) {
+
+        form {
+            width: 300px !important;
+        }
+
+    }
+}
+
+@media screen and (max-height:530px) {
+    .principal {
+        height: 100%;
+    }
+
+}
+
+@media screen and (max-width:376px) {
+    body {
+        header {
+            div {
+                h1 {
+                    font-size: large;
+                }
+
+                h2 {
+                    font-size: large;
+                }
+            }
+        }
+    }
+}

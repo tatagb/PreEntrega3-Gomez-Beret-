@@ -16,13 +16,13 @@
 
         form {
             @include dimension (450px, 470px);
-            margin: auto;
-            background: rgba(0, 0, 0, 4);
-            padding: 10px 20px;
+            margin: map-get($formularios, margin-formulario);
+            background: map-get($formularios, bg-formulario);
+            padding: map-get($formularios, padding-formulario);
             box-sizing: border-box;
-            margin-top: 60px;
-            border-radius: 7px;
-            position: relative;
+            margin-top: map-get($formularios, margintop-formulario);
+            border-radius: map-get($formularios, redondeo-formulario);
+            position: map-get($formularios, posicion-formulario);
 
             h2 {
                 color: nth($colores, 1);

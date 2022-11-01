@@ -21,8 +21,14 @@ orange;
 
 //!MAPAS
 
-
-
+$formularios:(
+    bg-formulario:rgba(0, 0, 0, 4),
+    padding-formulario: 10px 20px,
+    margin-formulario: auto,
+    margintop-formulario: 60px,
+    redondeo-formulario: 7px,
+    posicion-formulario: relative,
+);
 
 
 //!EXTENDS
@@ -39,5 +45,3 @@ orange;
     width: $ancho;
     height: $alto;
 }
-
-//!CONDICIONALES
